@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hola, Paco</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 50px;
+      background-color: #111;
+      color: white;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 40px;
+    }
+
+    .paco-img {
+      width: 250px;
+      transition: transform 0.3s ease, filter 0.3s ease;
+      cursor: pointer;
+    }
+
+    .paco-img:hover {
+      transform: scale(1.1);
+      filter: hue-rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido al espacio de Paco</h1>
+  <img src="imagen/paco.png" alt="Imagen con el nombre Paco" class="paco-img">
+</body>
+</html>
